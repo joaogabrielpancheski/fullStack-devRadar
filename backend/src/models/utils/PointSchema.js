@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const PointSchema = mongoose.Schema({
   type: {
@@ -10,6 +10,6 @@ const PointSchema = mongoose.Schema({
     type: [Number],
     required: true
   }
-})
+});
 
-module.exports = PointSchema
+module.exports = PointSchema;
